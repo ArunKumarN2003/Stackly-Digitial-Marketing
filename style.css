@@ -2,6 +2,11 @@ body {
   background: #000;
   font-family: 'Inter', sans-serif;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 
 .custom-nav {
   background: rgba(0,0,0,0.85);
@@ -176,7 +181,7 @@ body {
 .service-card {
   background: #0c1118;
   border-radius: 10px;
-  padding: 22px;
+  padding: 40px;
   transition: all 0.4s ease;
   box-shadow: 0 10px 30px rgba(0,0,0,0.6);
   height: 100%;
@@ -236,12 +241,12 @@ body {
   transform: scale(1.05);
 }
 .how-we-work-section {
-  padding: 120px 0;
+  padding: 40px 0;
   background: #000;
 }
 
 .what-we-do-section {
-  padding: 140px 0 100px;
+  padding: 100px 0 100px;
   background: #000;
 }
 .section-tag {
@@ -315,7 +320,7 @@ body {
   line-height: 1.7;
 }
 .asked-section {
-  padding: 140px 0;
+  padding: 50px 0;
   background: #000;
 }
 .asked-image {
@@ -349,7 +354,7 @@ body {
   margin-bottom: 18px;
 }
 .faq-section {
-  padding: 120px 0;
+  padding: 80px 0;
   background: #000;
 }
 
@@ -395,7 +400,7 @@ body {
   transform: rotate(180deg);
 }
 .expertise-section {
-  padding: 140px 0;
+  padding: 70px 0;
   background: #000;
 }
 .expertise-title {
@@ -466,7 +471,7 @@ body {
 }
 .cta-section {
   position: relative;
-  padding: 160px 0;
+  padding: 100px 0;
   background: #000;
   overflow: hidden;
 }
@@ -705,3 +710,4 @@ body {
     font-size: 40px;
   }
 }
+
