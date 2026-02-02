@@ -246,7 +246,7 @@ html, body {
 }
 
 .what-we-do-section {
-  padding: 100px 0 100px;
+  padding: 80px 0 80px;
   background: #000;
 }
 .section-tag {
@@ -320,7 +320,7 @@ html, body {
   line-height: 1.7;
 }
 .asked-section {
-  padding: 50px 0;
+  padding: 30px 0;
   background: #000;
 }
 .asked-image {
@@ -354,7 +354,7 @@ html, body {
   margin-bottom: 18px;
 }
 .faq-section {
-  padding: 80px 0;
+  padding: 50px 0;
   background: #000;
 }
 
@@ -400,7 +400,7 @@ html, body {
   transform: rotate(180deg);
 }
 .expertise-section {
-  padding: 70px 0;
+  padding: 50px 0;
   background: #000;
 }
 .expertise-title {
@@ -471,7 +471,7 @@ html, body {
 }
 .cta-section {
   position: relative;
-  padding: 100px 0;
+  padding: 80px 0;
   background: #000;
   overflow: hidden;
 }
@@ -710,4 +710,5 @@ html, body {
     font-size: 40px;
   }
 }
+
 
