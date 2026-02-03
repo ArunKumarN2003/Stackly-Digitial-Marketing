@@ -7,7 +7,9 @@ html, body {
   overflow-x: hidden;
 }
 
-
+section{
+  margin-bottom: 0px;
+}
 .custom-nav {
   background: rgba(0,0,0,0.85);
   backdrop-filter: blur(10px);
@@ -16,7 +18,7 @@ html, body {
     height:40px;
 }
 .navbar-nav .nav-link:hover {
-  color: #2ee59d;
+  color:  #2ee59d;
   text-decoration: underline;
   text-underline-offset: 6px;
 }
@@ -41,7 +43,34 @@ html, body {
   background: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d') center/cover no-repeat;
   min-height: 100vh;
   padding-top: 100px;
+
+  background-size: cover;
+  background-position: center;
 }
+.outline-text {
+  font-size: clamp(70px, 10vw, 130px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 2px #f97316;   
+  letter-spacing: 3px;
+}
+.hero-desc {
+  max-width: 780px;
+  margin: 35px auto 0;
+  font-size: clamp(18px, 2.2vw, 22px);
+  line-height: 1.8;
+  color: #e5e7eb;                     
+  opacity: 0.9;
+}
+.solid-text {
+  font-size: clamp(64px, 9vw, 120px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #f97316;                     
+  margin-top: -24px;
+}
+
 
 .overlay {
   position: absolute;
@@ -52,8 +81,8 @@ html, body {
 .hero-content {
   position: relative;
   z-index: 2;
+  text-align: center;
 }
-
 .outline-text {
   font-size: 90px;
   font-weight: 800;
@@ -246,11 +275,12 @@ html, body {
 }
 
 .what-we-do-section {
-  padding: 80px 0 80px;
+  padding: 100px 0 100px;
   background: #000;
 }
 .section-tag {
-  color: #2ee59d;
+  color: #0e079f;
+
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -320,7 +350,7 @@ html, body {
   line-height: 1.7;
 }
 .asked-section {
-  padding: 30px 0;
+  padding: 50px 0;
   background: #000;
 }
 .asked-image {
@@ -354,7 +384,7 @@ html, body {
   margin-bottom: 18px;
 }
 .faq-section {
-  padding: 50px 0;
+  padding: 80px 0;
   background: #000;
 }
 
@@ -400,7 +430,7 @@ html, body {
   transform: rotate(180deg);
 }
 .expertise-section {
-  padding: 50px 0;
+  padding: 70px 0;
   background: #000;
 }
 .expertise-title {
@@ -471,7 +501,7 @@ html, body {
 }
 .cta-section {
   position: relative;
-  padding: 80px 0;
+  padding: 100px 0;
   background: #000;
   overflow: hidden;
 }
@@ -554,6 +584,83 @@ html, body {
     height: 130px;
   }
 }
+
+.contact-section {
+  padding: 100px 0;
+  background: #000; 
+}
+
+.contact-wrapper {
+  max-width: 900px;
+  margin: auto;
+  background: linear-gradient(180deg, #0b0f14, #020617);
+  border-radius: 16px;
+  padding: 50px;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  color: #94a3b8;
+  margin-bottom: 40px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #22c55e;
+  padding: 14px 0;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #9ca3af;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.contact-form button {
+  background: #22c55e;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  color: #000;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.dark-select {
+  width: 100%;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #22c55e;
+  padding: 14px 0;
+  font-size: 16px;
+}
+.dark-select option {
+  background: #020617; 
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
 .grow-footer {
   background: radial-gradient(circle at top left, #0c1118, #000);
   padding: 140px 0 40px;
@@ -710,5 +817,3 @@ html, body {
     font-size: 40px;
   }
 }
-
-
